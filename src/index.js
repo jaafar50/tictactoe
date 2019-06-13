@@ -9,6 +9,7 @@ import Clock from './Clock';
 import Mailbox from './Mailbox';
 import Toggle from './Toggle';
 import Liste from './Liste';
+import NameForm from './NameForm';
 import LoginControl from './LoginControl';
 import * as serviceWorker from './serviceWorker';
 
@@ -35,6 +36,7 @@ ReactDOM.render(<Clock/>, document.getElementById('popo'));
 const numbers= [4,9,3,8,2];
 
 ReactDOM.render(<Liste numbers={numbers}/>, document.getElementById('popo3'));
+ReactDOM.render(<NameForm/>, document.getElementById('popo4'));
 
 const messages= ['coucou j espere que tu passes une bonne journee', 'Re ca va', 'bye je pars'];
 
